@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+h1{
+
+  padding: 1rem;
+  background-color: bisque;
+  text-align: center;
+  color:burlywood;
+  width: 30%;
+  margin: 3rem auto;
+  border-radius: 8px;
+}
+
+
+/* main header */
+/* fix position later */
+#mainHeader {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:darkkhaki;
+  padding: 0 5%;
+  /* height: 5rem; */
+  margin-bottom: 1rem;
+}
+
+
+
+#mainHeader ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#mainHeader li {
+  margin: 0 1rem;
+
+}
+#mainHeader nav a {
+  color: rgb(185, 131, 31);
+  font-size: 1.25rem;
+}
+
+#mainHeader nav a:hover {
+  color: rgb(228, 165, 38);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(185, 131, 31);
+  text-transform: uppercase;
+}
+
+#logo:hover{
+  color: rgb(228, 165, 38); 
+}
+
+
+/* intro */
+
+
+#introBackground{
+  height: 35rem;
+  padding: 1rem;
+}
+
+
+#intro{
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  /* background-image: url("Images/R1.jpg"); */
+}
+
+
+.intro-h2{
+  margin: 0 auto;
+}
+
+#intro p{
+  background-color: antiquewhite;
+  border-radius: 8px;
+  padding: 2rem;
+}
+/* cards */
+
+.cards {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+
+#secondCardSet ul{
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: 0 auto;
+}
+#secondCardSet li{
+margin: 0 3rem;
+}
+
+.cardsItems {
+  background-color:aliceblue;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardsItems img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cardsContent {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  background-color: antiquewhite;
+}
+
+.cardsContent h2 {
+  margin: 0 0 1rem 0;
+}
+
+.cardsContent p {
+  margin: 0 0 1rem 0;
+}
+
+
+/* button */
+
+.btn{
+    background-color:cadetblue;
+    color: blueviolet;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+
+.btn:hover{
+    background-color: cornflowerblue;
+}
+
+/* cards content */
+
+.cardsContentList{
+  height: 10rem;
+}
+
+.innerContent{
+  height: 14rem;
+}
+
+.cardsContentList li{
+  padding: 2px;
+  background-color: bisque;
+  border-radius: 6px;
+}
+
+
+
+.cardsContentList li:hover{
+  background-color: burlywood;
+}
+
+
+/* carousel */
+
+#carousel{
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel-item h2{
+  text-align: center;
+}
+
+.jobRoles{
+  margin: 0 auto;
+  width: 70%;
+  padding: 2px;
+  background-color: blanchedalmond;
+  border-radius: 6px;
+}
+
+.innerDiv img{
+  height: 30rem;
+}
+
+.additional img{
+  border-radius: 70px;
+}
+/* footer */
+
+
+footer{
+    background-color:chocolate;
+    margin-top: 1rem;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer li{
+    height: 70px;
+    width: 70px;
+    margin: 30px 30px;
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+footer h2{
+  text-align: center;
+}
+
+footer p{
+  text-align: center;
+}
